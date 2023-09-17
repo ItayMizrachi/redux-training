@@ -54,7 +54,7 @@ function Library() {
               className="input input-bordered w-full"
             />
             <div className="flex justify-end">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary w-full font-bold">
                 Add Book
               </button>
             </div>

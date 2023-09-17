@@ -39,7 +39,7 @@ const Store = () => {
       <h1 className="text-2xl font-bold mb-6">Store Dashboard</h1>
 
       {/* Add product form */}
-      <div className="card w-full max-w-2xl shadow-xl bg-base-100 mx-auto">
+      <div className="card w-full max-w-2xl shadow-xl bg-base-200/90 mx-auto">
         <div className="card-body">
           <h2 className="card-title text-xl mb-4">Add Product</h2>
           <div className="space-y-4">
@@ -84,7 +84,7 @@ const Store = () => {
               <button
                 disabled={!isFormValid()}
                 onClick={handleAddProduct}
-                className="btn btn-primary"
+                className="btn btn-primary w-full"
               >
                 Add Product
               </button>
@@ -97,11 +97,11 @@ const Store = () => {
       <div className="space-y-4">
         <h2 className="text-xl mb-4">Products</h2>
         <div className="flex justify-center sm:block">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
             {products.map((product) => (
               <div
                 key={product.id}
-                className="card max-w-sm w-full shadow-xl bg-base-100"
+                className="card max-w-sm w-full shadow-xl bg-base-100 "
               >
                 <figure className="h-48">
                   <img
