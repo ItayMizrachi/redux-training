@@ -14,7 +14,7 @@ const initialState = {
             "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
         },
         {
-            id: 1,
+            id: 2,
             name: "Tessla",
             model: "3",
             price: 200000,
@@ -22,7 +22,7 @@ const initialState = {
               "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
           },
           {
-            id: 1,
+            id: 3,
             name: "Tessla",
             model: "3",
             price: 200000,
@@ -30,7 +30,7 @@ const initialState = {
               "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
           },
           {
-            id: 1,
+            id: 4,
             name: "Tessla",
             model: "3",
             price: 200000,
@@ -38,7 +38,7 @@ const initialState = {
               "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
           },
           {
-            id: 1,
+            id: 5,
             name: "Tessla",
             model: "3",
             price: 200000,
@@ -46,7 +46,7 @@ const initialState = {
               "https://images.unsplash.com/photo-1617788138017-80ad40651399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
           },
           {
-            id: 1,
+            id: 6,
             name: "Tessla",
             model: "3",
             price: 200000,
