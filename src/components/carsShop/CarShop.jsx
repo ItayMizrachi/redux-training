@@ -66,7 +66,7 @@ const CarShop = () => {
             <div className="card-actions justify-end">
               <button
                 onClick={handleAddCar}
-                className="btn btn-primary w-full text-md"
+                className="btn btn-primary w-full text-md font-bold"
               >
                 Add Car
               </button>

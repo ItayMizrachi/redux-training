@@ -84,7 +84,7 @@ const ProductsList = () => {
               <button
                 disabled={!isFormValid()}
                 onClick={handleAddProduct}
-                className="btn btn-primary w-full"
+                className="btn btn-primary w-full font-bold"
               >
                 Add Product
               </button>

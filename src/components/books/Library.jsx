@@ -25,7 +25,7 @@ function Library() {
   };
 
   return (
-    <div className="p-8  min-h-screen">
+    <div className="p-8 max-w-[1300px] mx-auto min-h-screen">
       <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
         Library
       </h1>
