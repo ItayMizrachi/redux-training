@@ -6,9 +6,10 @@ import Main from "./components/Main";
 import store from "./store/store";
 import Library from "./components/books/Library";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Store from "./components/amazonStore/store";
 import { useState } from "react";
 import CarShop from "./components/carsShop/CarShop";
+import Store from "./components/amazonStore/store";
+
 const App = () => {
   const [selectedTheme, setSelectedTheme] = useState(
     localStorage.getItem("selectedTheme") || "dracula"
