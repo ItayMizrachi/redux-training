@@ -8,7 +8,7 @@ import Library from "./components/books/Library";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import CarShop from "./components/carsShop/CarShop";
-import Store from "./components/amazonStore/store";
+import ProductsList from "./components/products/ProductsList";
 
 const App = () => {
   const [selectedTheme, setSelectedTheme] = useState(
@@ -60,7 +60,7 @@ const App = () => {
               <Route index element={<Main />} />
               <Route path="/todo" element={<AddTodo />} />
               <Route path="/library" element={<Library />} />
-              <Route path="/store" element={<Store />} />
+              <Route path="/store" element={<ProductsList />} />
               <Route path="/cars" element={<CarShop />} />
             </Routes>
           </BrowserRouter>
